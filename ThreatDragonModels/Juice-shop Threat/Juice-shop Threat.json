@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "0a45228d-feba-4bfb-b05b-5376354b6f0e",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Web dev",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "2226ca85-bf4d-4f9e-9d2a-fd0d1a629954",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "29b65854-d502-49ca-9ea4-8658d4b8b60c",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Visiters",
@@ -389,6 +389,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -472,7 +473,6 @@
               ]
             },
             "id": "06e4425d-7502-47fc-8718-0912ba461641",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Public \nwebsite",
@@ -509,6 +509,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -592,7 +593,6 @@
               ]
             },
             "id": "4662b759-e2da-485e-801a-d740a69902fc",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Authentication",
@@ -629,6 +629,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -712,7 +713,6 @@
               ]
             },
             "id": "5b9eb991-f264-457d-bd88-0981d9bc0e9a",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Transactions",
@@ -752,6 +752,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -835,7 +836,6 @@
               ]
             },
             "id": "c595c53f-9ddb-419f-940f-aa316ebdabb5",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Public\nWebpages",
@@ -876,6 +876,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -959,7 +960,6 @@
               ]
             },
             "id": "b0870aa2-1218-45fe-a45b-7b88696f99b5",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Authentication \ndatabase",
@@ -1406,6 +1406,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1489,7 +1490,6 @@
               ]
             },
             "id": "30be6961-53fd-48b0-93e6-320ff0efdec7",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Transactions database",
@@ -1527,6 +1527,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1610,7 +1611,6 @@
               ]
             },
             "id": "78329b9e-3fa0-4c55-b9fd-4e07831aca89",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "NodeJS",
@@ -1647,6 +1647,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1730,7 +1731,6 @@
               ]
             },
             "id": "31610325-3703-4c66-ab36-41d17b4a8f18",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "SQLi \ndatabase",
